@@ -1,0 +1,4 @@
+#!/bin/sh -ex
+
+cc -Wall -F /Users/kef/Library/Frameworks -c gl.c
+
