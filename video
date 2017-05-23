@@ -16,10 +16,10 @@ pool,video_sprite_h,131072,uint16_t
 band,video_sprite,video_sprite_x,video_sprite_y,video_sprite_w,video_sprite_h
 pack 
 
-pool,video_mouse_x,1,uint16_t
-pool,video_mouse_y,1,uint16_t
-pool,video_mouse_rx,1,int16_t
-pool,video_mouse_ry,1,int16_t
+pool,video_mouse_x,1,uint64_t
+pool,video_mouse_y,1,uint64_t
+pool,video_mouse_rx,1,int64_t
+pool,video_mouse_ry,1,int64_t
 pool,video_mouse_up,16,uint8_t
 pool,video_mouse_dn,16,uint8_t
 
