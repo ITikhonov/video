@@ -1,4 +1,5 @@
 #!/bin/sh -ex
 
 cc -Wall -F /Users/kef/Library/Frameworks -c gl.c
+cc -Wall -F /Users/kef/Library/Frameworks -c sdl.c
 

@@ -73,7 +73,6 @@ S void gl_error(const char *file, int line, const char *func) {
 #define LT(x) glTexImage2D(GL_TEXTURE_2D,0,GL_RGBA,2048,2048,0,GL_RGBA,GL_UNSIGNED_BYTE,x);GE;
 
 S const char *vertex_shader;S const char *fragment_shader;
-S struct{uint16_t x,y,w,h;}PK spritesheet_coords[131072];S struct{int16_t x,y,w,h;}PK screen_coords[131072];
 S GLuint program;S GLuint texture;S GLuint quad_vbo;S GLuint screen_vbo;S GLuint spritesheet_vbo;
 S const GLfloat quad_vertices[]={0,0,0,0,0,1,0,1,1,0,1,0,1,1,1,1,};
 S GLuint vao;
