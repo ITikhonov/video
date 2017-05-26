@@ -8,13 +8,14 @@ pool,video_sheet_y,131072,uint16_t
 pool,video_sheet_w,131072,uint16_t
 pool,video_sheet_h,131072,uint16_t
 band,video_sheet,video_sheet_x,video_sheet_y,video_sheet_w,video_sheet_h
+pack,video_sheet
 
 pool,video_sprite_x,131072,uint16_t
 pool,video_sprite_y,131072,uint16_t
 pool,video_sprite_w,131072,uint16_t
 pool,video_sprite_h,131072,uint16_t
 band,video_sprite,video_sprite_x,video_sprite_y,video_sprite_w,video_sprite_h
-pack 
+pack,video_sprite
 
 pool,video_mouse_x,1,uint64_t
 pool,video_mouse_y,1,uint64_t
@@ -22,8 +23,10 @@ pool,video_mouse_rx,1,int64_t
 pool,video_mouse_ry,1,int64_t
 pool,video_mouse_up,16,uint8_t
 pool,video_mouse_dn,16,uint8_t
+bundle,video_mouse,video_mouse_x,video_mouse_y,video_mouse_rx,video_mouse_ry,video_mouse_up,video_mouse_dn
 
 pool,video_keyboard_up,512,uint8_t
 pool,video_keyboard_dn,512,uint8_t
+bundle,video_keyboard,video_keyboard_up,video_keyboard_dn
 
 
